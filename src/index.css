@@ -1,0 +1,185 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    box-sizing: border-box;
+  }
+
+  html, body, #root {
+    min-height: 100%;
+  }
+
+  body {
+    @apply font-sans;
+    overscroll-behavior: none;
+  }
+
+  body.dark,
+  html.dark body {
+    background-color: #020617;
+    color: #f8fafc;
+  }
+
+  body:not(.dark),
+  html:not(.dark) body {
+    background-color: #f1f5f9;
+    color: #0f172a;
+  }
+}
+
+@layer components {
+  /* ── Buttons ───────────────────────────────── */
+  .btn-primary {
+    @apply w-full py-4 px-6 rounded-2xl font-extrabold text-base text-white
+           bg-emerald-500 border-2 border-b-4 border-emerald-700
+           active:border-b-2 active:translate-y-0.5 transition-all duration-100
+           disabled:opacity-40 disabled:cursor-not-allowed
+           disabled:active:translate-y-0 disabled:active:border-b-4;
+  }
+
+  .btn-secondary {
+    @apply w-full py-4 px-6 rounded-2xl font-extrabold text-base
+           bg-white border-2 border-b-4 border-slate-300 text-slate-700
+           dark:bg-slate-800 dark:border-slate-700 dark:border-b-slate-900 dark:text-slate-200
+           active:border-b-2 active:translate-y-0.5 transition-all duration-100;
+  }
+
+  /* ── Cards: explicit light / dark styling ───── */
+  .card {
+    @apply rounded-2xl transition-colors duration-150 shadow-sm border;
+    background-color: #ffffff;
+    border-color: #e2e8f0;
+    color: #0f172a;
+  }
+
+  .dark .card,
+  [data-theme="dark"] .card {
+    background-color: #1e293b !important;
+    border-color: #334155 !important;
+    color: #f8fafc !important;
+  }
+
+  .card-inset {
+    @apply rounded-2xl transition-colors duration-150 border;
+    background-color: #f8fafc;
+    border-color: #e2e8f0;
+  }
+
+  .dark .card-inset,
+  [data-theme="dark"] .card-inset {
+    background-color: rgba(15, 23, 42, 0.6) !important;
+    border-color: #334155 !important;
+  }
+
+  /* ── Option buttons (quiz) ──────────────────── */
+  .opt-idle {
+    @apply rounded-2xl py-4 px-4 font-bold text-base text-center border-2 border-b-4
+           active:border-b-2 active:translate-y-0.5 transition-all duration-100 cursor-pointer;
+    background-color: #ffffff;
+    border-color: #e2e8f0;
+    color: #334155;
+  }
+
+  .dark .opt-idle,
+  [data-theme="dark"] .opt-idle {
+    background-color: #1e293b !important;
+    border-color: #334155 !important;
+    border-bottom-color: #0f172a !important;
+    color: #e2e8f0 !important;
+  }
+
+  .opt-correct {
+    @apply bg-emerald-50 border-2 border-b-4 border-emerald-400 text-emerald-700
+           dark:bg-emerald-950/60 dark:border-emerald-600 dark:text-emerald-300
+           rounded-2xl py-4 px-4 font-bold text-base text-center;
+  }
+
+  .opt-wrong {
+    @apply bg-rose-50 border-2 border-b-4 border-rose-400 text-rose-700
+           dark:bg-rose-950/60 dark:border-rose-600 dark:text-rose-300
+           rounded-2xl py-4 px-4 font-bold text-base text-center;
+  }
+
+  .opt-dim {
+    @apply bg-white border-2 border-b-4 border-slate-100 text-slate-300
+           dark:bg-slate-800/40 dark:border-slate-800 dark:text-slate-600
+           rounded-2xl py-4 px-4 font-bold text-base text-center opacity-50;
+  }
+
+  /* ── Word chips ─────────────────────────────── */
+  .chip-available {
+    @apply border-2 border-b-4 px-3 py-2 rounded-xl font-bold text-sm
+           active:border-b-2 active:translate-y-0.5 transition-all duration-75;
+    background-color: #ffffff;
+    border-color: #e2e8f0;
+    color: #334155;
+  }
+
+  .dark .chip-available,
+  [data-theme="dark"] .chip-available {
+    background-color: #1e293b !important;
+    border-color: #334155 !important;
+    border-bottom-color: #0f172a !important;
+    color: #e2e8f0 !important;
+  }
+
+  .chip-chosen {
+    @apply bg-indigo-500 border-2 border-b-4 border-indigo-700 text-white
+           dark:bg-indigo-600 dark:border-indigo-500 dark:border-b-indigo-800
+           px-3 py-2 rounded-xl font-bold text-sm
+           active:border-b-2 active:translate-y-0.5 transition-all duration-75;
+  }
+}
+
+/* ── Custom animations ──────────────────────── */
+@layer utilities {
+  .animate-slide-up {
+    animation: slide-up 0.32s cubic-bezier(0.34, 1.4, 0.64, 1) both;
+  }
+
+  .animate-pop {
+    animation: pop 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+  }
+
+  .animate-shake {
+    animation: shake 0.45s ease-in-out both;
+  }
+
+  .animate-pulse-ring {
+    animation: pulse-ring 2s ease-in-out infinite;
+  }
+
+  .animate-fade-in {
+    animation: fade-in 0.3s ease-out both;
+  }
+}
+
+@keyframes slide-up {
+  from { transform: translateY(110%); opacity: 0; }
+  to   { transform: translateY(0);    opacity: 1; }
+}
+
+@keyframes pop {
+  from { transform: scale(0.6); opacity: 0; }
+  to   { transform: scale(1);   opacity: 1; }
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-6px); }
+  40%, 80% { transform: translateX(6px); }
+}
+
+@keyframes pulse-ring {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(99, 102, 241, 0.5); }
+  50%      { box-shadow: 0 0 0 10px rgba(99, 102, 241, 0); }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}

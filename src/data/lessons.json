@@ -1,0 +1,943 @@
+[
+  {
+    "id": 1,
+    "title": "Я, ты и глагол-связка",
+    "emoji": "👋",
+    "xpReward": 20,
+    "steps": [
+      {
+        "type": "theory",
+        "title": "am / are",
+        "subtitle": "Учимся говорить, кто мы и где находимся",
+        "text": "В русском языке мы говорим просто: «Я дома» или «Ты друг». В английском предложении ОБЯЗАТЕЛЬНО должен быть глагол. Поэтому англичане говорят: «Я ЕСТЬ дома» и «Ты ЕСТЬ друг». Этот глагол-связка — am (для I) и are (для You).",
+        "formula": "I am · You are",
+        "examples": [
+          { "en": "I am happy.", "ru": "Я (есть) счастлив." },
+          { "en": "You are ready.", "ru": "Ты (есть) готов." }
+        ],
+        "tip": "Запомни пару: I → am, You → are. Пропускать связку нельзя!"
+      },
+      {
+        "type": "vocabulary",
+        "title": "Слова дня",
+        "words": [
+          { "word": "I", "transcription": "[ай]", "translation": "я", "example": "I am here." },
+          { "word": "you", "transcription": "[ю]", "translation": "ты / вы", "example": "You are cool." },
+          { "word": "happy", "transcription": "[хэ́ппи]", "translation": "счастливый", "example": "I am happy." },
+          { "word": "ready", "transcription": "[рэ́ди]", "translation": "готов", "example": "You are ready." },
+          { "word": "here", "transcription": "[хиа]", "translation": "здесь / тут", "example": "I am here." }
+        ]
+      },
+      {
+        "type": "quiz",
+        "question": "Как правильно сказать «Я счастлив»?",
+        "sentence": "Выбери готовый вариант",
+        "options": ["I happy", "I am happy", "I are happy", "Am happy"],
+        "correctIndex": 1,
+        "hint": "После слова I (я) всегда идёт связка am.",
+        "explanation": "В английском нельзя пропустить связку «есть». Со словом I всегда используется только форма am → I am happy."
+      },
+      {
+        "type": "quiz",
+        "question": "Выбери правильную связку: «You ___ ready»",
+        "sentence": "You ___ ready",
+        "options": ["am", "are", "is", "be"],
+        "correctIndex": 1,
+        "hint": "С местоимением You (ты/вы) дружит слово are.",
+        "explanation": "Запомни пару: I am (Я есть), но You are (Ты есть). Поэтому правильно: You are ready."
+      },
+      {
+        "type": "sentence_builder",
+        "question": "Собери фразу:",
+        "translation": "Я здесь",
+        "words": ["here", "I", "am", "are"],
+        "correct": "I am here",
+        "hint": "Начни с «Я» (I), затем добавь связку (am) и слово «здесь» (here).",
+        "explanation": "Строгий порядок слов: КТО (I) → СВЯЗКА (am) → ГДЕ (here)."
+      },
+      {
+        "type": "sentence_builder",
+        "question": "Собери фразу:",
+        "translation": "Ты счастлив",
+        "words": ["happy", "You", "are", "am"],
+        "correct": "You are happy",
+        "hint": "Для слова You используй связку are.",
+        "explanation": "You (ты) + are (есть) + happy (счастлив). Отлично!"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Он, она, оно и связка is",
+    "emoji": "👤",
+    "xpReward": 20,
+    "steps": [
+      {
+        "type": "theory",
+        "title": "He / She / It + IS",
+        "subtitle": "Говорим о других людях и предметах",
+        "text": "Когда мы говорим о ком-то одном — он, она или какой-то предмет — вместо am и are мы используем короткое слово IS. Запомни: в английском все животные и неодушевлённые предметы (стол, телефон, кот) — это IT (оно).",
+        "formula": "He is · She is · It is",
+        "examples": [
+          { "en": "He is busy.", "ru": "Он занят." },
+          { "en": "She is tired.", "ru": "Она устала." },
+          { "en": "It is good.", "ru": "Это (оно) хорошо." }
+        ],
+        "tip": "Телефон, книга, кот — всё это IT. Не он и не она, а «оно»!"
+      },
+      {
+        "type": "vocabulary",
+        "title": "Слова дня",
+        "words": [
+          { "word": "he", "transcription": "[хи]", "translation": "он", "example": "He is here." },
+          { "word": "she", "transcription": "[ши]", "translation": "она", "example": "She is happy." },
+          { "word": "it", "transcription": "[ит]", "translation": "оно / это (про предметы)", "example": "It is good." },
+          { "word": "busy", "transcription": "[би́зи]", "translation": "занят", "example": "He is busy." },
+          { "word": "tired", "transcription": "[та́йэд]", "translation": "уставший", "example": "She is tired." }
+        ]
+      },
+      {
+        "type": "quiz",
+        "question": "Как перевести «Он занят»?",
+        "sentence": "He ___ busy",
+        "options": ["He are busy", "He am busy", "He is busy", "He busy"],
+        "correctIndex": 2,
+        "hint": "Со словами He, She, It всегда используется связка is.",
+        "explanation": "Для единственного числа (он/она/оно) используется глагол-связка is → He is busy."
+      },
+      {
+        "type": "quiz",
+        "question": "Какое местоимение заменит слово «телефон» или «книга»?",
+        "sentence": "___ is good",
+        "options": ["He", "She", "It", "You"],
+        "correctIndex": 2,
+        "hint": "Неодушевлённые предметы в английском не имеют мужского или женского рода.",
+        "explanation": "В английском языке любые предметы, явления и даже животные без имени обозначаются словом It."
+      },
+      {
+        "type": "sentence_builder",
+        "question": "Собери фразу:",
+        "translation": "Она устала",
+        "words": ["tired", "She", "is", "are"],
+        "correct": "She is tired",
+        "hint": "Начни с She, затем связка для «она» и слово «уставшая».",
+        "explanation": "В английском говорят: «Она есть уставшая» — She is tired."
+      },
+      {
+        "type": "sentence_builder",
+        "question": "Собери фразу:",
+        "translation": "Он здесь",
+        "words": ["here", "He", "is", "am"],
+        "correct": "He is here",
+        "hint": "He + связка is + here.",
+        "explanation": "He is here — Он (находится) здесь. Верно!"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Мы и они — полная to be",
+    "emoji": "👥",
+    "xpReward": 25,
+    "steps": [
+      {
+        "type": "theory",
+        "title": "We / They + ARE",
+        "subtitle": "Говорим о компаниях и группах людей",
+        "text": "Хорошая новость: для множественного числа не нужно учить новое слово! Когда людей или предметов много — «мы» (we) или «они» (they) — мы берём уже знакомую нам связку ARE. Это же правило действует и для «вы» (you во мн.ч.).",
+        "formula": "We are · You are · They are",
+        "examples": [
+          { "en": "We are friends.", "ru": "Мы друзья." },
+          { "en": "They are at home.", "ru": "Они дома." }
+        ],
+        "tip": "Для всех групп — одна форма ARE. Легко запомнить!"
+      },
+      {
+        "type": "vocabulary",
+        "title": "Слова дня",
+        "words": [
+          { "word": "we", "transcription": "[уи́]", "translation": "мы", "example": "We are ready." },
+          { "word": "they", "transcription": "[зэй]", "translation": "они", "example": "They are busy." },
+          { "word": "friends", "transcription": "[фрэндз]", "translation": "друзья", "example": "We are friends." },
+          { "word": "at home", "transcription": "[эт хоум]", "translation": "дома", "example": "I am at home." },
+          { "word": "together", "transcription": "[туге́зэ]", "translation": "вместе", "example": "We are together." }
+        ]
+      },
+      {
+        "type": "quiz",
+        "question": "Выбери правильный вариант: «Мы друзья»",
+        "sentence": "We ___ friends",
+        "options": ["We is friends", "We are friends", "We am friends", "They are friends"],
+        "correctIndex": 1,
+        "hint": "We — это «мы» (нас много), значит нужна связка are.",
+        "explanation": "Со всеми местоимениями множественного числа (We, You, They) используется связка are."
+      },
+      {
+        "type": "quiz",
+        "question": "Заполни пропуск: «They ___ at home»",
+        "sentence": "They ___ at home",
+        "options": ["is", "am", "are", "be"],
+        "correctIndex": 2,
+        "hint": "They (они) — множественное число.",
+        "explanation": "И с людьми, и с предметами во множественном числе (They) всегда ставится are."
+      },
+      {
+        "type": "sentence_builder",
+        "question": "Собери фразу:",
+        "translation": "Мы вместе",
+        "words": ["together", "We", "are", "is"],
+        "correct": "We are together",
+        "hint": "We + связка множественного числа + together.",
+        "explanation": "We are together = Мы (есть) вместе. Супер!"
+      },
+      {
+        "type": "sentence_builder",
+        "question": "Собери фразу:",
+        "translation": "Я дома",
+        "words": ["home", "I", "am", "at"],
+        "correct": "I am at home",
+        "hint": "Вспомни День 1 (I am) и устойчивое выражение at home.",
+        "explanation": "Запомни цельную фразу «at home» (дома): I am at home."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Как сказать «НЕТ»",
+    "emoji": "🚫",
+    "xpReward": 25,
+    "steps": [
+      {
+        "type": "theory",
+        "title": "Отрицания с NOT",
+        "subtitle": "Учим частицу NOT и сокращения",
+        "text": "Чтобы сделать предложение отрицательным, не нужно ничего менять местами. Просто поставь слово NOT сразу после глагола-связки (am, is, are). В разговорной речи их часто склеивают: is not = isn't, are not = aren't.",
+        "formula": "am not · isn't (is not) · aren't (are not)",
+        "examples": [
+          { "en": "I am not tired.", "ru": "Я не устал." },
+          { "en": "He isn't busy.", "ru": "Он не занят." },
+          { "en": "We aren't ready.", "ru": "Мы не готовы." }
+        ],
+        "tip": "NOT всегда стоит ПОСЛЕ связки. Порядок не меняется!"
+      },
+      {
+        "type": "vocabulary",
+        "title": "Слова дня",
+        "words": [
+          { "word": "not", "transcription": "[нот]", "translation": "не", "example": "I am not ready." },
+          { "word": "hungry", "transcription": "[ха́нгри]", "translation": "голодный", "example": "He is not hungry." },
+          { "word": "angry", "transcription": "[э́нгри]", "translation": "злой / сердитый", "example": "She isn't angry." },
+          { "word": "late", "transcription": "[лэйт]", "translation": "опоздавший / поздно", "example": "You aren't late." }
+        ]
+      },
+      {
+        "type": "quiz",
+        "question": "Как правильно сказать «Я не голоден»?",
+        "sentence": "I ___ hungry",
+        "options": ["I not am hungry", "I am not hungry", "I not hungry", "Am not I hungry"],
+        "correctIndex": 1,
+        "hint": "Частица not всегда ставится ПОСЛЕ связки am.",
+        "explanation": "В русском: «Я НЕ голоден», а в английском сначала идёт связка, потом отрицание: I am NOT hungry."
+      },
+      {
+        "type": "quiz",
+        "question": "Что означает «She isn't angry»?",
+        "sentence": "She isn't angry",
+        "options": ["Она злая", "Она не злая", "Он не злой", "Она устала"],
+        "correctIndex": 1,
+        "hint": "isn't — это склеенные слова is + not.",
+        "explanation": "Сокращение isn't (is not) делает фразу отрицательной: Она не сердитая (не злая)."
+      },
+      {
+        "type": "sentence_builder",
+        "question": "Собери фразу:",
+        "translation": "Он не занят",
+        "words": ["busy", "He", "is", "not"],
+        "correct": "He is not busy",
+        "hint": "Поставь not строго после глагола is.",
+        "explanation": "Порядок слов: He + is + not + busy."
+      },
+      {
+        "type": "sentence_builder",
+        "question": "Собери фразу:",
+        "translation": "Ты не опоздал",
+        "words": ["late", "You", "are", "not"],
+        "correct": "You are not late",
+        "hint": "В английском «опоздавший» — это состояние (late). Используй You are not...",
+        "explanation": "В английском говорят «Ты не есть опоздавший» — You are not late."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Как задать вопрос?",
+    "emoji": "❓",
+    "xpReward": 30,
+    "steps": [
+      {
+        "type": "theory",
+        "title": "Магия перестановки слов",
+        "subtitle": "Выносим связку на первое место",
+        "text": "В русском языке мы задаём вопрос просто интонацией: «Ты дома. → Ты дома?». В английском интонации мало — нужно вынести связку (Am, Is, Are) на самое первое место перед человеком!",
+        "formula": "Are you...? · Is he...? · Is she...?",
+        "examples": [
+          { "en": "Are you ready?", "ru": "Ты готов? (Дословно: Есть ты готов?)" },
+          { "en": "Is he at home?", "ru": "Он дома?" }
+        ],
+        "tip": "Вопрос = связка выпрыгивает вперёд. Всё остальное остаётся на месте!"
+      },
+      {
+        "type": "vocabulary",
+        "title": "Слова дня",
+        "words": [
+          { "word": "sure", "transcription": "[шуа]", "translation": "уверен", "example": "Are you sure?" },
+          { "word": "free", "transcription": "[фри]", "translation": "свободен / бесплатный", "example": "Are you free?" },
+          { "word": "ok", "transcription": "[оукэ́й]", "translation": "в порядке", "example": "Is she ok?" },
+          { "word": "yes / no", "transcription": "[йес / ноу]", "translation": "да / нет", "example": "Yes, I am." }
+        ]
+      },
+      {
+        "type": "quiz",
+        "question": "Как спросить «Ты уверен?»",
+        "sentence": "___ you sure?",
+        "options": ["You are sure?", "Are you sure?", "Is you sure?", "Sure are you?"],
+        "correctIndex": 1,
+        "hint": "Для вопроса перенеси связку are в самое начало перед you.",
+        "explanation": "В вопросе глагол-связка выпрыгивает вперёд: не You are sure, а Are you sure?"
+      },
+      {
+        "type": "quiz",
+        "question": "Выбери начало вопроса: «___ she at home?»",
+        "sentence": "___ she at home?",
+        "options": ["Are", "Am", "Is", "Not"],
+        "correctIndex": 2,
+        "hint": "Со словом she всегда работает связка is.",
+        "explanation": "Так как речь идёт о ней (she), вопрос начинается со слова Is → Is she at home?"
+      },
+      {
+        "type": "sentence_builder",
+        "question": "Собери вопрос:",
+        "translation": "Ты свободен?",
+        "words": ["free", "you", "Are", "Is"],
+        "correct": "Are you free",
+        "hint": "Начни с вопросительной связки Are.",
+        "explanation": "Отличный вопрос для начала разговора: Are you free? (Ты свободен?)"
+      },
+      {
+        "type": "sentence_builder",
+        "question": "Собери вопрос:",
+        "translation": "Он голоден?",
+        "words": ["hungry", "he", "Is", "Are"],
+        "correct": "Is he hungry",
+        "hint": "Для he выносим вперёд связку Is.",
+        "explanation": "Верно: Is (связка) + he (он) + hungry (голодный)."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Артикли a / an и the",
+    "emoji": "📌",
+    "xpReward": 30,
+    "steps": [
+      {
+        "type": "theory",
+        "title": "Один любой (a/an) или тот самый (the)",
+        "subtitle": "Зачем англичане ставят маленькие словечки перед предметами",
+        "text": "В русском нет артиклей, а в английском перед одиночным предметом обязательно ставят «маячок». Если предмет один и любой (называем впервые) — ставим A (или AN перед гласным звуком). Если говорим про конкретный, «тот самый» предмет — ставим THE.",
+        "formula": "a car · an apple · the car (тот самый)",
+        "examples": [
+          { "en": "It is a book.", "ru": "Это (какая-то одна) книга." },
+          { "en": "It is an apple.", "ru": "Это яблоко (начинается на гласную — an)." },
+          { "en": "The book is good.", "ru": "Эта (конкретная) книга — хорошая." }
+        ],
+        "tip": "AN — перед гласными звуками: a, e, i, o, u. Иначе A."
+      },
+      {
+        "type": "vocabulary",
+        "title": "Слова дня",
+        "words": [
+          { "word": "a book", "transcription": "[э бук]", "translation": "книга", "example": "It is a book." },
+          { "word": "a car", "transcription": "[э ка:]", "translation": "машина", "example": "It is a new car." },
+          { "word": "an apple", "transcription": "[эн эпл]", "translation": "яблоко", "example": "It is an apple." },
+          { "word": "an idea", "transcription": "[эн айди́а]", "translation": "идея", "example": "It is a good idea." },
+          { "word": "good / new", "transcription": "[гуд / нью]", "translation": "хороший / новый", "example": "The car is new." }
+        ]
+      },
+      {
+        "type": "quiz",
+        "question": "Какой артикль нужен перед «___ apple»?",
+        "sentence": "___ apple",
+        "options": ["a", "an", "are", "не нужен"],
+        "correctIndex": 1,
+        "hint": "Слово apple начинается с гласного звука [э] — сказать «a apple» неудобно для языка.",
+        "explanation": "Перед гласными звуками (a, e, i, o, u) к артиклю a добавляется буква n для благозвучия → an apple."
+      },
+      {
+        "type": "quiz",
+        "question": "Как сказать «Это (какая-то) машина»?",
+        "sentence": "It is ___ car",
+        "options": ["It is car", "It is a car", "It is an car", "It a car"],
+        "correctIndex": 1,
+        "hint": "Машина исчисляемая и одна, начинается на согласный звук [к].",
+        "explanation": "Нельзя оставить одиночный предмет без артикля! Слово car начинается с согласной → a → It is a car."
+      },
+      {
+        "type": "sentence_builder",
+        "question": "Собери фразу:",
+        "translation": "Эта (конкретная) книга хорошая",
+        "words": ["good", "book", "The", "is"],
+        "correct": "The book is good",
+        "hint": "Когда мы говорим «эта конкретная», используем артикль The в начале.",
+        "explanation": "The показывает, что мы оба знаем, о какой книге речь: The book is good."
+      },
+      {
+        "type": "sentence_builder",
+        "question": "Собери фразу:",
+        "translation": "Это (одна) идея",
+        "words": ["idea", "It", "is", "an"],
+        "correct": "It is an idea",
+        "hint": "Слово idea начинается с гласной, поэтому перед ним идёт an.",
+        "explanation": "Слово idea начинается с гласной → an. It is an idea!"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Один и много + Чьё это?",
+    "emoji": "🔑",
+    "xpReward": 35,
+    "steps": [
+      {
+        "type": "theory",
+        "title": "Окончание -S и притяжательные местоимения",
+        "subtitle": "Множественное число (-s) и слова мой / твой",
+        "text": "Чтобы сделать из одного предмета много, просто убери артикль a/an и добавь на конец слова -S: a book → books. Если перед предметом стоит слово «мой» (my) или «твой» (your), артикль a/the тоже больше НЕ нужен — они заменяют друг друга!",
+        "formula": "one book → two books · my book (моя книга)",
+        "examples": [
+          { "en": "My car is new.", "ru": "Моя машина новая." },
+          { "en": "Your books are here.", "ru": "Твои книги здесь (их много, поэтому are!)." }
+        ],
+        "tip": "После my, your, his, her — артикль a/the не нужен. Только что-то одно!"
+      },
+      {
+        "type": "vocabulary",
+        "title": "Слова дня",
+        "words": [
+          { "word": "my", "transcription": "[май]", "translation": "мой / моя / мои", "example": "My friend is here." },
+          { "word": "your", "transcription": "[йо:]", "translation": "твой / ваш", "example": "Is it your phone?" },
+          { "word": "his / her", "transcription": "[хиз / хё:]", "translation": "его / её", "example": "Her cat is cute." },
+          { "word": "phone", "transcription": "[фоун]", "translation": "телефон", "example": "My phone is new." },
+          { "word": "keys", "transcription": "[ки:з]", "translation": "ключи", "example": "Your keys are here." }
+        ]
+      },
+      {
+        "type": "quiz",
+        "question": "Как правильно сказать «Мой телефон»?",
+        "sentence": "___ phone",
+        "options": ["My a phone", "A my phone", "My phone", "The my phone"],
+        "correctIndex": 2,
+        "hint": "Слова my, your, his полностью заменяют собой артикль.",
+        "explanation": "Перед существительным — только один «определитель»: либо артикль (a phone), либо принадлежность (my phone). Вместе нельзя!"
+      },
+      {
+        "type": "quiz",
+        "question": "Выбери правильную связку: «My keys ___ here»",
+        "sentence": "My keys ___ here",
+        "options": ["is", "am", "are", "be"],
+        "correctIndex": 2,
+        "hint": "Keys (ключи) с окончанием -s — это множественное число (они).",
+        "explanation": "Ключей много (keys = they), поэтому используем связку множественного числа are."
+      },
+      {
+        "type": "sentence_builder",
+        "question": "Собери фразу:",
+        "translation": "Его машина новая",
+        "words": ["new", "car", "His", "is"],
+        "correct": "His car is new",
+        "hint": "His (его) + car (машина, одна) + связка is + new.",
+        "explanation": "Машина одна (it), поэтому после His car ставим связку is."
+      },
+      {
+        "type": "sentence_builder",
+        "question": "Собери вопрос:",
+        "translation": "Это твой телефон?",
+        "words": ["phone", "your", "Is", "it"],
+        "correct": "Is it your phone",
+        "hint": "Для вопроса выносим Is на первое место перед it.",
+        "explanation": "Первая неделя позади! Ты уже умеешь строить утверждения, отрицания и вопросы!"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Настоящие действия",
+    "emoji": "⚡",
+    "xpReward": 35,
+    "steps": [
+      {
+        "type": "theory",
+        "title": "Present Simple: I / You / We / They",
+        "subtitle": "Переходим от состояний к активным действиям!",
+        "text": "Самая частая ошибка новичков — лепить связку am/is/are к обычным действиям (работать, жить, любить). Запомни железное правило: если в предложении есть настоящий глагол действия (work, live, like), то связки am/is/are НЕ НУЖНЫ! Просто ставь действие сразу после человека.",
+        "formula": "I / You / We / They + ГЛАГОЛ (без изменений)",
+        "examples": [
+          { "en": "I work every day.", "ru": "Я работаю каждый день (НЕ I am work!)." },
+          { "en": "We live here.", "ru": "Мы живём здесь." },
+          { "en": "They like coffee.", "ru": "Они любят кофе." }
+        ],
+        "tip": "Есть глагол действия → связка am/is/are уходит!"
+      },
+      {
+        "type": "vocabulary",
+        "title": "Слова дня",
+        "words": [
+          { "word": "work", "transcription": "[уо́:к]", "translation": "работать / работа", "example": "I work here." },
+          { "word": "live", "transcription": "[лив]", "translation": "жить", "example": "We live together." },
+          { "word": "like", "transcription": "[лайк]", "translation": "нравиться / любить", "example": "I like tea." },
+          { "word": "know", "transcription": "[ноу]", "translation": "знать (k не читается!)", "example": "I know it." },
+          { "word": "coffee / tea", "transcription": "[ко́фи / ти:]", "translation": "кофе / чай", "example": "You like coffee." }
+        ]
+      },
+      {
+        "type": "quiz",
+        "question": "Как правильно сказать «Я работаю здесь»?",
+        "sentence": "I ___ here",
+        "options": ["I am work here", "I work here", "I working here", "Me work here"],
+        "correctIndex": 1,
+        "hint": "Work — это уже глагол действия, связка am ему не нужна!",
+        "explanation": "Связка am нужна только там, где нет действия. А «работать» — это уже действие, поэтому: I work here."
+      },
+      {
+        "type": "quiz",
+        "question": "Переведи фразу: «Я знаю это»",
+        "sentence": "I ___ it",
+        "options": ["I am know it", "I know it", "I knows it", "I is know it"],
+        "correctIndex": 1,
+        "hint": "Человек (I) + действие (know) + предмет (it).",
+        "explanation": "Никаких лишних связок: I (я) know (знаю) it (это)."
+      },
+      {
+        "type": "sentence_builder",
+        "question": "Собери фразу:",
+        "translation": "Мы любим кофе",
+        "words": ["coffee", "We", "like", "are"],
+        "correct": "We like coffee",
+        "hint": "Слово are тут лишнее-ловушка! Используй только We + глагол + coffee.",
+        "explanation": "Молодец, что не попался на ловушку со словом are! Глагол like работает самостоятельно."
+      },
+      {
+        "type": "sentence_builder",
+        "question": "Собери фразу:",
+        "translation": "Они живут здесь",
+        "words": ["here", "They", "live", "are"],
+        "correct": "They live here",
+        "hint": "They (они) + live (живут) + here (здесь).",
+        "explanation": "Идеально: They live here."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Он и Она в действии",
+    "emoji": "🔤",
+    "xpReward": 35,
+    "steps": [
+      {
+        "type": "theory",
+        "title": "He / She / It + Глагол-S",
+        "subtitle": "Главное правило Present Simple для He / She / It",
+        "text": "Когда действие совершает ОН (he), ОНА (she) или ОНО (it), к глаголу в настоящем времени обязательно прилипает окончание -S. Сравни: I work (я работаю), но He workS (он работает). У слова have (иметь) особая форма для он/она — HAS.",
+        "formula": "He / She / It + Глагол + S (works, lives, has)",
+        "examples": [
+          { "en": "She works a lot.", "ru": "Она много работает." },
+          { "en": "He likes tea.", "ru": "Ему нравится чай." },
+          { "en": "She has a car.", "ru": "У неё есть машина." }
+        ],
+        "tip": "Запомни исключение: I/you/we/they HAVE, но he/she/it HAS."
+      },
+      {
+        "type": "vocabulary",
+        "title": "Слова дня",
+        "words": [
+          { "word": "have / has", "transcription": "[хэв / хэз]", "translation": "иметь (у меня есть / у него есть)", "example": "I have a cat. She has a dog." },
+          { "word": "want", "transcription": "[уо́нт]", "translation": "хотеть", "example": "He wants coffee." },
+          { "word": "understand", "transcription": "[андэстэ́нд]", "translation": "понимать", "example": "She understands you." },
+          { "word": "a lot", "transcription": "[э лот]", "translation": "много (в конце фразы)", "example": "He works a lot." }
+        ]
+      },
+      {
+        "type": "quiz",
+        "question": "Выбери правильную форму: «She ___ here»",
+        "sentence": "She ___ here",
+        "options": ["live", "lives", "is live", "living"],
+        "correctIndex": 1,
+        "hint": "После he / she / it к глаголу всегда добавляется буква -s.",
+        "explanation": "Так как подлежащее She (она), к глаголу live прибавляем -s → She lives here."
+      },
+      {
+        "type": "quiz",
+        "question": "Как сказать «У него есть машина»?",
+        "sentence": "He ___ a car",
+        "options": ["He have a car", "He has a car", "He is have a car", "He haves a car"],
+        "correctIndex": 1,
+        "hint": "Глагол have после he/she/it превращается в слово has.",
+        "explanation": "Запомни исключение: I/you/we/they HAVE, но he/she/it HAS → He has a car."
+      },
+      {
+        "type": "sentence_builder",
+        "question": "Собери фразу:",
+        "translation": "Он хочет чай",
+        "words": ["tea", "He", "wants", "want"],
+        "correct": "He wants tea",
+        "hint": "Для He выбери глагол с хвостиком -s.",
+        "explanation": "Правильно! He wants tea."
+      },
+      {
+        "type": "sentence_builder",
+        "question": "Собери фразу:",
+        "translation": "Она много работает",
+        "words": ["lot", "She", "works", "a"],
+        "correct": "She works a lot",
+        "hint": "Выражение «много» ставится в самый конец: a lot.",
+        "explanation": "She works (с окончанием -s) a lot (много). Отлично!"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Отрицания с действиями",
+    "emoji": "🙅",
+    "xpReward": 40,
+    "steps": [
+      {
+        "type": "theory",
+        "title": "Don't и Doesn't",
+        "subtitle": "Как сказать «Я не знаю» или «Он не хочет»",
+        "text": "С обычными глаголами нельзя сказать просто «I not know». Нам нужен специальный глагол-помощник: DON'T (для I, you, we, they) и DOESN'T (для he, she, it). При этом DOESN'T забирает букву -s себе, поэтому основной глагол после него возвращается в чистую форму!",
+        "formula": "I don't know · He doesn't know (БЕЗ -s на конце know!)",
+        "examples": [
+          { "en": "I don't understand.", "ru": "Я не понимаю." },
+          { "en": "She doesn't like coffee.", "ru": "Она не любит кофе (буква s ушла в doesn't!)." }
+        ],
+        "tip": "DOESN'T уже содержит в себе «s» → второй раз к глаголу её лепить нельзя!"
+      },
+      {
+        "type": "vocabulary",
+        "title": "Слова дня",
+        "words": [
+          { "word": "don't", "transcription": "[доунт]", "translation": "не (для I, you, we, they)", "example": "I don't know." },
+          { "word": "doesn't", "transcription": "[дазнт]", "translation": "не (для he, she, it)", "example": "He doesn't work." },
+          { "word": "need", "transcription": "[ни:д]", "translation": "нуждаться (мне нужно)", "example": "I don't need it." },
+          { "word": "speak", "transcription": "[спи:к]", "translation": "говорить (на языке)", "example": "We speak English." }
+        ]
+      },
+      {
+        "type": "quiz",
+        "question": "Как правильно сказать «Я не знаю»?",
+        "sentence": "I ___ know",
+        "options": ["I not know", "I am not know", "I don't know", "I doesn't know"],
+        "correctIndex": 2,
+        "hint": "Для отрицания действия со словом I используй помощник don't.",
+        "explanation": "Самая полезная фраза в английском: I don't know (Я не знаю)."
+      },
+      {
+        "type": "quiz",
+        "question": "Найди правильный перевод: «Он не работает здесь»",
+        "sentence": "He ___ work here",
+        "options": ["He don't work here", "He doesn't works here", "He doesn't work here", "He isn't work here"],
+        "correctIndex": 2,
+        "hint": "Для He берём doesn't, а у слова work убираем окончание -s!",
+        "explanation": "Помощник doesn't уже содержит в себе букву S, поэтому второй раз лепить её к глаголу нельзя → He doesn't work."
+      },
+      {
+        "type": "sentence_builder",
+        "question": "Собери фразу:",
+        "translation": "Мне это не нужно",
+        "words": ["it", "I", "don't", "need"],
+        "correct": "I don't need it",
+        "hint": "I + отрицательный помощник + need + it.",
+        "explanation": "Супер! I don't need it."
+      },
+      {
+        "type": "sentence_builder",
+        "question": "Собери фразу:",
+        "translation": "Она не хочет кофе",
+        "words": ["coffee", "She", "doesn't", "want"],
+        "correct": "She doesn't want coffee",
+        "hint": "После She ставим doesn't, затем чистый глагол want.",
+        "explanation": "Безупречно: She doesn't want coffee."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Вопросы с действиями",
+    "emoji": "🗣️",
+    "xpReward": 40,
+    "steps": [
+      {
+        "type": "theory",
+        "title": "Do и Does в начало!",
+        "subtitle": "Спрашиваем про привычки, вкусы и жизнь",
+        "text": "Чтобы задать вопрос с глаголом действия (работаешь, знаешь, любишь), мы ставим на первое место помощника DO (для I, you, we, they) или DOES (для he, she, it). Сам глагол при этом остаётся чистым, без всяких окончаний!",
+        "formula": "Do you + глагол? · Does he + глагол?",
+        "examples": [
+          { "en": "Do you speak English?", "ru": "Ты говоришь по-английски?" },
+          { "en": "Does she live here?", "ru": "Она живёт здесь?" }
+        ],
+        "tip": "После Does глагол возвращается в чистую форму: Does she have (не has!) time?"
+      },
+      {
+        "type": "vocabulary",
+        "title": "Слова дня",
+        "words": [
+          { "word": "English", "transcription": "[и́нглиш]", "translation": "английский язык", "example": "Do you speak English?" },
+          { "word": "help", "transcription": "[хэлп]", "translation": "помощь / помогать", "example": "Do you need help?" },
+          { "word": "time", "transcription": "[тайм]", "translation": "время", "example": "Do you have time?" },
+          { "word": "remember", "transcription": "[римэ́мбэ]", "translation": "помнить", "example": "Do you remember?" }
+        ]
+      },
+      {
+        "type": "quiz",
+        "question": "Как спросить «Ты говоришь по-английски?»",
+        "sentence": "___ you speak English?",
+        "options": ["Are you speak English?", "Speak you English?", "Do you speak English?", "Does you speak English?"],
+        "correctIndex": 2,
+        "hint": "Speak — это глагол действия, поэтому вопрос со словом you начинается с Do.",
+        "explanation": "Не путай с Are you! Так как «говорить» — это действие, на первое место встаёт помощник Do → Do you speak English?"
+      },
+      {
+        "type": "quiz",
+        "question": "Выбери правильный вопрос: «У неё есть время?»",
+        "sentence": "Does she ___ time?",
+        "options": ["Does she has time?", "Does she have time?", "Do she have time?", "Is she have time?"],
+        "correctIndex": 1,
+        "hint": "После помощника Does глагол возвращается в базовую форму have!",
+        "explanation": "В утверждении было She has, но в вопросе Does забирает S → возвращается чистая форма have → Does she have time?"
+      },
+      {
+        "type": "sentence_builder",
+        "question": "Собери вопрос:",
+        "translation": "Тебе нужна помощь?",
+        "words": ["help", "you", "Do", "need"],
+        "correct": "Do you need help",
+        "hint": "Помощник Do + кто (you) + действие (need) + что (help).",
+        "explanation": "Очень полезная фраза: Do you need help?"
+      },
+      {
+        "type": "sentence_builder",
+        "question": "Собери вопрос:",
+        "translation": "Он знает это?",
+        "words": ["it", "he", "Does", "know"],
+        "correct": "Does he know it",
+        "hint": "Для местоимения he вопрос начинается с Does.",
+        "explanation": "Отлично! Does he know it?"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Вопросительные слова",
+    "emoji": "🌍",
+    "xpReward": 40,
+    "steps": [
+      {
+        "type": "theory",
+        "title": "Где? Что? Почему?",
+        "subtitle": "Учимся узнавать конкретную информацию",
+        "text": "Ты уже умеешь строить вопросы «Do you live here?» и «Are you ok?». Чтобы спросить «ГДЕ ты живёшь?» или «ЧТО ты хочешь?», просто поставь вопросительное слово (Where, What, Why, When) на самое первое место перед той же самой конструкцией!",
+        "formula": "Where / What / Why + do you + глагол?",
+        "examples": [
+          { "en": "Where do you live?", "ru": "Где ты живёшь?" },
+          { "en": "What do you want?", "ru": "Что ты хочешь?" },
+          { "en": "Where are you?", "ru": "Где ты? (нет действия → связка are)." }
+        ],
+        "tip": "Порядок: Вопрос. слово + помощник (do/does) + человек + действие."
+      },
+      {
+        "type": "vocabulary",
+        "title": "Слова дня",
+        "words": [
+          { "word": "what", "transcription": "[уо́т]", "translation": "что / какой", "example": "What do you want?" },
+          { "word": "where", "transcription": "[уэ́а]", "translation": "где / куда", "example": "Where are you?" },
+          { "word": "when", "transcription": "[уэ́н]", "translation": "когда", "example": "When do we start?" },
+          { "word": "why", "transcription": "[уа́й]", "translation": "почему / зачем", "example": "Why are you angry?" },
+          { "word": "think", "transcription": "[синк]", "translation": "думать", "example": "What do you think?" }
+        ]
+      },
+      {
+        "type": "quiz",
+        "question": "Как правильно спросить «Где ты живёшь?»",
+        "sentence": "Where ___ you live?",
+        "options": ["Where you live?", "Where do you live?", "Where are you live?", "What do you live?"],
+        "correctIndex": 1,
+        "hint": "После слова Where обязательно должен идти помощник вопроса do.",
+        "explanation": "Нельзя потерять помощника do! Строгий порядок: Where + do + you + live."
+      },
+      {
+        "type": "quiz",
+        "question": "Как спросить «Где ты сейчас находишься?»",
+        "sentence": "Where ___ you?",
+        "options": ["Where do you?", "Where are you?", "Why are you?", "Where you are?"],
+        "correctIndex": 1,
+        "hint": "В этом вопросе нет глагола действия, значит работает связка are!",
+        "explanation": "Здесь нет глагола действия — спрашиваем про местоположение, используем связку to be: Where are you?"
+      },
+      {
+        "type": "sentence_builder",
+        "question": "Собери вопрос:",
+        "translation": "Что ты думаешь?",
+        "words": ["think", "What", "do", "you"],
+        "correct": "What do you think",
+        "hint": "What (что) + do + you + think (думать).",
+        "explanation": "Супер-популярная разговорная фраза: What do you think?"
+      },
+      {
+        "type": "sentence_builder",
+        "question": "Собери вопрос:",
+        "translation": "Почему он злится?",
+        "words": ["angry", "Why", "is", "he"],
+        "correct": "Why is he angry",
+        "hint": "Angry (злой) — это прилагательное, поэтому используем связку is.",
+        "explanation": "Верно: Why (почему) + is (связка) + he (он) + angry (злой)."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Я могу и умею",
+    "emoji": "💪",
+    "xpReward": 45,
+    "steps": [
+      {
+        "type": "theory",
+        "title": "Модальный глагол CAN",
+        "subtitle": "Самый простой и удобный глагол в английском",
+        "text": "Слово CAN («могу / умею») — любимчик всех учеников, потому что оно вообще никогда не меняется! Ему не нужны окончания -s для he/she/it, и ему не нужны помощники do/does. Для отрицания просто говорим CAN'T (не могу), а для вопроса выносим CAN вперёд.",
+        "formula": "I / He / We + CAN + глагол · Can you help?",
+        "examples": [
+          { "en": "I can swim.", "ru": "Я умею плавать." },
+          { "en": "She can speak English.", "ru": "Она умеет говорить по-английски (никаких -s!)." },
+          { "en": "Can you help me?", "ru": "Ты можешь мне помочь?" }
+        ],
+        "tip": "CAN не меняется никогда! He can, she can, they can — всегда одинаково."
+      },
+      {
+        "type": "vocabulary",
+        "title": "Слова дня",
+        "words": [
+          { "word": "can / can't", "transcription": "[кэн / ка:нт]", "translation": "могу, умею / не могу", "example": "I can do it." },
+          { "word": "see", "transcription": "[си:]", "translation": "видеть", "example": "I can see you." },
+          { "word": "come", "transcription": "[кам]", "translation": "приходить / приехать", "example": "I can't come today." },
+          { "word": "me", "transcription": "[ми:]", "translation": "мне / меня", "example": "Can you help me?" },
+          { "word": "today / tomorrow", "transcription": "[тудэй / тумо́роу]", "translation": "сегодня / завтра", "example": "See you tomorrow!" }
+        ]
+      },
+      {
+        "type": "quiz",
+        "question": "Как правильно сказать «Он может прийти сегодня»?",
+        "sentence": "He ___ come today",
+        "options": ["He cans come today", "He can comes today", "He can come today", "He is can come today"],
+        "correctIndex": 2,
+        "hint": "Слово can никогда не принимает окончание -s, и глагол после него тоже чистый!",
+        "explanation": "После модального глагола can никакие окончания -s не добавляются даже для he/she/it → He can come today."
+      },
+      {
+        "type": "quiz",
+        "question": "Как попросить «Ты можешь мне помочь?»",
+        "sentence": "___ you help me?",
+        "options": ["Do you can help me?", "Can you help me?", "Are you can help me?", "You can help me?"],
+        "correctIndex": 1,
+        "hint": "Глагол can сам строит вопрос, просто выпрыгивая на первое место.",
+        "explanation": "Помощник Do тут не нужен — Can сам встаёт в начало вопроса: Can you help me?"
+      },
+      {
+        "type": "sentence_builder",
+        "question": "Собери фразу:",
+        "translation": "Я не могу говорить сегодня",
+        "words": ["speak", "I", "can't", "today"],
+        "correct": "I can't speak today",
+        "hint": "I + отрицание can't + действие speak + когда (today).",
+        "explanation": "Чётко и просто: I can't speak today."
+      },
+      {
+        "type": "sentence_builder",
+        "question": "Собери вопрос:",
+        "translation": "Ты видишь меня?",
+        "words": ["me", "you", "Can", "see"],
+        "correct": "Can you see me",
+        "hint": "С чувствами (видеть, слышать) англичане часто используют Can you...",
+        "explanation": "Именно так спрашивают по видеосвязи: Can you see me? (Меня видно?)"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Предлоги in / on / at + Босс!",
+    "emoji": "🏆",
+    "xpReward": 50,
+    "steps": [
+      {
+        "type": "theory",
+        "title": "Три главных предлога: IN, ON, AT",
+        "subtitle": "Связываем слова в полноценную речь",
+        "text": "Чтобы указывать место и время, запомни простую логику: 1) IN — внутри чего-то большого (in a car, in London, in the morning). 2) ON — на поверхности или с днями недели (on the table, on Monday). 3) AT — в конкретной точке или в точное время (at home, at work, at 5 o'clock).",
+        "formula": "IN (внутри) · ON (на/дни) · AT (точка/время)",
+        "examples": [
+          { "en": "My phone is on the table.", "ru": "Мой телефон на столе." },
+          { "en": "He is at work today.", "ru": "Он сегодня на работе." },
+          { "en": "We live in a big city.", "ru": "Мы живём в большом городе." }
+        ],
+        "tip": "AT home (дома), AT work (на работе), ON Monday, IN Moscow."
+      },
+      {
+        "type": "vocabulary",
+        "title": "Слова дня",
+        "words": [
+          { "word": "in", "transcription": "[ин]", "translation": "в (внутри города, комнаты)", "example": "I live in Moscow." },
+          { "word": "on", "transcription": "[он]", "translation": "на (поверхности) / в (день недели)", "example": "It is on the table." },
+          { "word": "at", "transcription": "[эт]", "translation": "в / на (конкретной точке)", "example": "She is at work." },
+          { "word": "table", "transcription": "[тэ́йбл]", "translation": "стол", "example": "Your keys are on the table." },
+          { "word": "city", "transcription": "[си́ти]", "translation": "город", "example": "It is a big city." }
+        ]
+      },
+      {
+        "type": "quiz",
+        "question": "«Твои ключи НА столе» — Your keys are ___ the table.",
+        "sentence": "Your keys are ___ the table",
+        "options": ["in", "on", "at", "to"],
+        "correctIndex": 1,
+        "hint": "Ключи лежат НА поверхности стола.",
+        "explanation": "Для нахождения предмета на любой поверхности всегда используется предлог ON."
+      },
+      {
+        "type": "quiz",
+        "question": "Финальная проверка: «Где он работает?»",
+        "sentence": "Where ___ he work?",
+        "options": ["Where is he work?", "Where does he work?", "Where do he work?", "Where he works?"],
+        "correctIndex": 1,
+        "hint": "Work — это действие (нужен do/does), а человек — he (он).",
+        "explanation": "Ты соединил Where + does + he + work. Блестяще — финальное упражнение пройдено!"
+      },
+      {
+        "type": "sentence_builder",
+        "question": "Собери фразу:",
+        "translation": "Она сегодня не на работе",
+        "words": ["work", "She", "isn't", "at", "today"],
+        "correct": "She isn't at work today",
+        "hint": "На работе = at work. Нет действия, поэтому отрицательная связка isn't.",
+        "explanation": "She isn't (она не находится) at work (на работе) today (сегодня). Правильно!"
+      },
+      {
+        "type": "sentence_builder",
+        "question": "БОСС-ФРАЗА! Собери:",
+        "translation": "Я не знаю, где мой телефон",
+        "words": ["I", "don't", "know", "where", "my", "phone", "is"],
+        "correct": "I don't know where my phone is",
+        "hint": "Начни с «Я не знаю» (I don't know), затем «где мой телефон есть» (where my phone is).",
+        "explanation": "🎉 Поздравляю с прохождением 14-дневного курса! Ты знаешь фундамент английской грамматики и больше 60 нужных слов!"
+      }
+    ]
+  }
+]
